@@ -1,0 +1,57 @@
+{
+  "fs": 256,
+  "window_s": 4,
+  "bandpass_hz": [
+    0.5,
+    40
+  ],
+  "filter_order": 4,
+  "warmup_s": 30,
+  "sph_s": 300,
+  "sop_s": 1800,
+  "fusion_history_s": 300,
+  "postictal_s": 14400,
+  "interictal_before_s": 14400,
+  "lead_gap_s": 14400,
+  "min_context_fraction": 0.95,
+  "max_context_gap_s": 60,
+  "min_train_events": 2,
+  "min_val_events": 1,
+  "min_test_events": 1,
+  "split_fractions": [
+    0.6,
+    0.2,
+    0.2
+  ],
+  "amplitude_flag_uv": 500,
+  "mad_flag_multiplier": 6,
+  "flatline_s": 1,
+  "flatline_tolerance_uv": 0.01,
+  "batch_windows": 64,
+  "exclude_cases": [
+    "chb21"
+  ],
+  "channels": [
+    "FP1-F7",
+    "F7-T7",
+    "T7-P7",
+    "P7-O1",
+    "FP1-F3",
+    "F3-C3",
+    "C3-P3",
+    "P3-O1",
+    "FP2-F4",
+    "F4-C4",
+    "C4-P4",
+    "P4-O2",
+    "FP2-F8",
+    "F8-T8",
+    "T8-P8",
+    "P8-O2",
+    "FZ-CZ",
+    "CZ-PZ"
+  ],
+  "pipeline_version": "2.0",
+  "inner_folds": 3,
+  "fold_seed": 20261028
+}

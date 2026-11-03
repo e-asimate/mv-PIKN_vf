@@ -1,0 +1,10 @@
+{
+  "preprocessing_run": "run_20261028T165011846018Z",
+  "sha256": {
+    "locked_folds": "76e6de77c12369879e6d2acd3b28bdfae4ec6e002df2267aa9df64269d99475b",
+    "locked_events": "d90d610b034a77e424b6befe19389cf320b2daa11468ca040ec388fa1be9b151",
+    "locked_inventory": "954a8f5ad8f81cc85c76b2434a9bcf49b70d56400856db1c0e635517b202ef13",
+    "preprocessing_config": "e1685f7d85fb3ebae48373f3df62c5da202609ef39656e9f05830651cbb6b3bc"
+  },
+  "note": "Hashes document the input artifacts used by saved plans; the subject-level fold, event, and inventory files are not included here."
+}

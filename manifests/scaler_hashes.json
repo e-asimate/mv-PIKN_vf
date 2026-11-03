@@ -1,0 +1,19 @@
+{
+  "experiment": "exploratory_three_model_mean_v1",
+  "outer_fold_index": 1,
+  "scalers": [
+    {
+      "inner_fold": "inner_01",
+      "sha256": "530f4459c56e0c61361fa5ff3f6eddb719ae68cdc9252f240287db60dbd7f486"
+    },
+    {
+      "inner_fold": "inner_02",
+      "sha256": "aaabbd3e2df3b76bb812a6b14f1abcff77e36f8061f1d16011613863d8b227d9"
+    },
+    {
+      "inner_fold": "inner_03",
+      "sha256": "c7921e1f76911a05c6f9d89bcc6c1bbc2a899f7f56c3f2b3581e661946b66ee7"
+    }
+  ],
+  "note": "Hashes were copied from the saved experiment plans. Binary scaler arrays and subject-level fit provenance are not published."
+}

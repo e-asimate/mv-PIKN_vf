@@ -1,3 +1,9 @@
-# Split and event manifests
+# Preprocessing and split provenance
 
-The locked fold and event manifests are not included in this initial repository structure. Add the reviewed public manifests here before claiming that this repository alone reproduces the split assignments.
+This folder contains non-subject-specific configuration and provenance summaries for the CHB-MIT preprocessing run `run_20261028T165011846018Z`.
+
+- `preprocessing_config.json`, `runtime_environment.json`, and `duplicate_channel_policy.json` record preprocessing parameters, package versions, and channel policy.
+- `input_hashes.json` records SHA-256 fingerprints of the locked inputs used by the saved experiment plans.
+- `scaler_hashes.json` records the three training-fitted scaler hashes used in the exploratory inner-fold comparison.
+
+The full locked fold, seizure-event, inventory, and scaler artifacts are kept out of this public repository pending review of their subject-level content. The hash records let readers identify the exact artifacts without publishing their contents. EEG samples are not included.

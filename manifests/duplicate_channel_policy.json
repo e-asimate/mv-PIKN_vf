@@ -1,0 +1,18 @@
+{
+  "revision": "2.1",
+  "applies_to_cases": [
+    "chb12",
+    "chb15"
+  ],
+  "channel": "T8-P8",
+  "selection": "Unique entry between F8-T8 and P8-O2; must equal original first candidate",
+  "omitted": "Supplemental entry immediately following FT10-T8",
+  "assumption": "Distinct signals with the same label; no equality or physiological equivalence assumed",
+  "existing_checkpoints": "Retained: original processor selected the same first candidate",
+  "config_compatibility": "2.0",
+  "source_edfs_modified": false,
+  "sources": [
+    "https://physionet.org/files/chbmit/1.0.0/chb12/chb12-summary.txt",
+    "https://physionet.org/files/chbmit/1.0.0/chb15/chb15-summary.txt"
+  ]
+}

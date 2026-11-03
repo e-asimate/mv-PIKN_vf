@@ -1,0 +1,16 @@
+# EEG data, derived arrays, model files, and local run outputs
+data/CHB-MIT/
+data/raw/
+data/processed/
+*.edf
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+outputs/
+results/generated/
+__pycache__/
+.ipynb_checkpoints/
+.env

@@ -1,0 +1,11 @@
+numpy
+pandas>=2.0
+scipy>=1.11
+h5py>=3.10
+pyedflib>=0.1.40
+wfdb>=4.1
+tqdm
+torch
+scikit-learn
+matplotlib
+plotly
